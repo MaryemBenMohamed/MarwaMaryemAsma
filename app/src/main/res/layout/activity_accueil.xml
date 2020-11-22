@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/text1"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:background="@color/colorAccent"
+      android:text="@string/for_more_information_about_the_pandamic_situation_in_tunisia_visit_this_site"
+      android:textSize="10pt"
+     android:textAlignment="center"
+      />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="@string/visit_site"
+        android:textSize="10pt"
+        />
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/text1"
+        android:layout_marginTop="30dp"
+        android:text="About virus "
+        android:textSize="10pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+
+        />
+
+    <Button
+        android:id="@+id/symButton"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="30dp"
+        android:text="Symptoms "
+        android:textSize="10pt"
+
+        />
+    <Button
+        android:id="@+id/howButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutButton"
+        android:layout_marginTop="30dp"
+        android:text="How to protect "
+        android:textSize="10pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+
+        />
+    <Button
+        android:id="@+id/isoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/howButton"
+        android:layout_marginTop="30dp"
+        android:text="Home Isolation rules "
+        android:textSize="10pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+
+        />
+
+  <Button
+      android:layout_width="279dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/isoButton"
+      android:layout_alignParentLeft="false"
+      android:layout_alignParentTop="false"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="false"
+      android:layout_marginTop="30dp"
+      android:layout_marginRight="2dp"
+      android:text="Things to do "
+
+      android:textSize="10pt" />
+
+
+</RelativeLayout>

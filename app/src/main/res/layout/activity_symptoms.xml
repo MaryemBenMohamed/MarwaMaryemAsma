@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:id="@+id/Sym1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sym1"
+            android:textSize="35dp"
+
+
+            />
+        <TextView
+            android:id="@+id/Sym2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Most common symptoms :"
+            android:layout_below="@+id/Sym1"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+
+            />
+    <TextView
+        android:id="@+id/Sym3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fever"
+        android:layout_below="@+id/Sym2"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dry cough"
+        android:layout_below="@+id/Sym3"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tired"
+        android:layout_below="@+id/Sym4"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Less common symptoms :"
+        android:layout_below="@+id/Sym5"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="headache"
+        android:layout_below="@+id/Sym6"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sore throat"
+        android:layout_below="@+id/Sym7"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="loss of smell or taste"
+        android:layout_below="@+id/Sym8"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="diarrhea"
+        android:layout_below="@+id/Sym9"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serious symptoms :"
+        android:layout_below="@+id/Sym10"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="difficulty breathing or shortness of breath"
+        android:layout_below="@+id/Sym11"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/Sym13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="feeling of tightness or pain in the chest"
+        android:layout_below="@+id/Sym12"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="loss of speech or motor skills"
+        android:layout_below="@+id/Sym13"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+
+
+</RelativeLayout>

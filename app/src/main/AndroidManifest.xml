@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
-        <activity android:name=".aboutvirus"></activity>
+        <activity android:name=".HowToProtect"></activity>
+        <activity android:name=".Symptoms" />
+        <activity android:name=".aboutvirus" />
         <activity android:name=".aboutapp" />
         <activity android:name=".Accueil" />
         <activity android:name=".MainActivity">
